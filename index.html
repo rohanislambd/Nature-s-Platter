@@ -17,16 +17,18 @@
     />
   </head>
   <body>
-    <header class="pt-6">
+    <header class="md:pt-6">
       <nav class="flex justify-around container mx-auto">
-        <img src="./assets/nav-logo.png" alt="logo" class="h-15 w-auto" />
+        <div class="hidden md:block">
+          <img src="./assets/nav-logo.png" alt="logo" class="h-10 md:h-15" />
+        </div>
 
-        <ul class="flex gap-4 items-center">
+        <ul class="hidden md:flex gap-4 items-center">
           <li><a href="">Product</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Contact us</a></li>
         </ul>
-        <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-4">
           <span><i class="fa-solid fa-magnifying-glass"></i></span>
           <span><i class="fa-solid fa-cart-shopping"></i></span>
           <button
@@ -39,6 +41,13 @@
           >
             Register
           </button>
+        </div>
+        <!-- mobile device -->
+        <div
+          class="md:hidden flex justify-between items-center w-full px-4 py-2 border-b text-[#179800]"
+        >
+          <img src="./assets/Group.png" alt="" />
+          <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
     </header>
