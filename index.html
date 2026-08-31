@@ -1,91 +1,195 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nature's Platter</title>
 
-    <!-- tailwind -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- font awsome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body class="bg-[#FFFFFF]">
-    <header class="md:pt-6">
-      <nav class="flex justify-around container mx-auto">
-        <div class="hidden md:block">
-          <img src="./assets/nav-logo.png" alt="logo" class="h-10 md:h-15" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nature's Platter</title>
 
-        <ul class="hidden md:flex gap-4 items-center">
-          <li><a href="">Product</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-        <div class="hidden md:flex items-center gap-4">
-          <span><i class="fa-solid fa-magnifying-glass"></i></span>
-          <span><i class="fa-solid fa-cart-shopping"></i></span>
-          <button
-            class="rounded border border-green-500 font-semibold px-8 py-2"
-          >
-            Login
-          </button>
-          <button
-            class="rounded bg-green-500 font-semibold px-8 py-2 text-white"
-          >
-            Register
-          </button>
-        </div>
-        <!-- mobile device -->
-        <div
-          class="md:hidden flex justify-between items-center w-full px-4 py-2 border-b text-[#179800]"
-        >
-          <img src="./assets/Group.png" alt="" />
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </nav>
-      <!-- end nav  -->
+  <!-- tailwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-      <!-- start hero section -->
-      <section class="text-center py-20">
-          <div class=" xl:w-[40%] mx-auto px-5 xl: p-0">
-            <h2 class="font-bold text-3xl md:text-5xl">Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!</h2>
-          <p class="pt-3 md:pt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+<body class="bg-[#FFFFFF]">
+  <header class="md:pt-6">
+    <nav class="flex justify-around container mx-auto">
+      <div class="hidden md:block">
+        <img src="./assets/nav-logo.png" alt="logo" class="h-10 md:h-15" />
+      </div>
+
+      <ul class="hidden md:flex gap-4 items-center">
+        <li><a href="">Product</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+      <div class="hidden md:flex items-center gap-4">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-cart-shopping"></i></span>
+        <button class="rounded border border-green-500 font-semibold px-8 py-2">
+          Login
+        </button>
+        <button class="rounded bg-green-500 font-semibold px-8 py-2 text-white">
+          Register
+        </button>
+      </div>
+      <!-- mobile device -->
+      <div class="md:hidden flex justify-between items-center w-full px-4 py-2 border-b text-[#179800]">
+        <img src="./assets/Group.png" alt="" />
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- end nav  -->
+
+    <!-- start hero section -->
+    <section class="text-center py-20">
+      <div class=" xl:w-[40%] mx-auto px-5 xl: p-0">
+        <h2 class="font-bold text-3xl md:text-5xl">Freshness <span class="text-[#179800]">You Can <br> Count</span> On,
+          Prices You’ll Love!</h2>
+        <p class="pt-3 md:pt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+          staples, we’ve got you covered every day!</p>
+      </div>
+      <img src="./assets/Hero Section 1.png" alt="" class="mx-auto  xl:max-w-165 pt-9">
+    </section>
+    <!-- end hero section -->
+  </header>
+  <main>
+    <!-- services -->
+    <section class="container mx-auto mb-30 p-4 xl:p-0">
+      <h2 class="text-green-500 font-bold text-4xl mb-12">Services</h2>
+      <div class=" flex flex-col gap-6 xl:flex-row">
+        <div class="text-center bg-[#efebe3] rounded-2xl p-8">
+          <div class="bg-white rounded-full h3 h-30 w-30 flex justify-center items-center p-5 mx-auto">
+            <img src="./assets/service.png" alt="">
           </div>
-          <img src="./assets/Hero Section 1.png" alt="" class="mx-auto  xl:max-w-165 pt-9">
-      </section>
-      <!-- end hero section -->
-    </header>
-      <main>
-         <!-- services -->
-          <section class="container mx-auto mb-30 p-4 xl:p-0">
-              <h2 class="text-green-500 font-bold text-4xl mb-12">Services</h2>
-              <div class=" flex flex-col gap-6 xl:flex-row">
-                  <div class="text-center bg-[#efebe3] rounded-2xl p-8">
-                      <img src="./assets/service.png" alt="" class="mx-auto"> 
-                      <h3 class="font-semibold text-2xl pt-5">24/7 Services </h3>
-                      <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          <h3 class="font-semibold text-2xl pt-5">24/7 Services </h3>
+          <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt</p>
+        </div>
+        <div class="text-center bg-[#efebe3] rounded-2xl p-8">
+          <div class="bg-white rounded-full h3 h-30 w-30 flex justify-center items-center p-5 mx-auto">
+            <img src="./assets/delivery.png" alt="">
+          </div>
+          <h3 class="font-semibold text-2xl pt-5">Fast Delivery </h3>
+          <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt</p>
+        </div>
+        <div class="text-center bg-[#efebe3] rounded-2xl p-8">
+          <div class="bg-white rounded-full h3 h-30 w-30 flex justify-center items-center p-5 mx-auto">
+            <img src="./assets/products.png" alt="">
+          </div>
+          <h3 class="font-semibold text-2xl pt-5">Healthy Product</h3>
+          <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular products section -->
+    <section class=" bg-[#EFEBE3]">
+      <div class="container mx-auto p-3">
+        <h2 class="text-[#179800] font-bold text-4xl mb-12 pt-16">Popular Products</h2>
+        <div class="grid  xl:grid-cols-12 gap-5">
+          <!-- 30% -->
+          <div class="xl:col-span-3 space-y-5 bg-linear-to-br from-lime-500 to-lime-100 pt-11 pl-6">
+            <h3 class="font-bold text-2xl text-white">30% off</h3>
+            <p>Discover a world of treats, toys, and essentials handpicked for</p>
+            <button class="rounded  text-black bg-white font-semibold px-8 py-2">Buy Now</button>
+            <img src="./assets/maskgroup.png" alt="" class="h-80 -mt-36 xlml-6">
+
+          </div>
+          <!-- 70% -->
+          <div class="xl:col-span-9 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/onion.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Onion 1 KG</h2>
+                      <p>$39</p>
                   </div>
-                  <div class="text-center bg-[#efebe3] rounded-2xl p-8">
-                      <img src="./assets/delivery.png" alt="" class="mx-auto"> 
-                      <h3 class="font-semibold text-2xl pt-5">Fast Delivery </h3>
-                      <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/tomato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Tomato 500 g</h2>
+                      <p>$39</p>
                   </div>
-                  <div class="text-center bg-[#efebe3] rounded-2xl p-8">
-                      <img src="./assets/products.png" alt="" class="mx-auto"> 
-                      <h3 class="font-semibold text-2xl pt-5">Healthy Product</h3>
-                      <p class="text-[#111111a8]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/potato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Potato 1 KG</h2>
+                      <p>$39</p>
                   </div>
-              </div>
-          </section>
-      </main>
+              </div> 
 
 
-  </body>
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/tomato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Tomato 500 g</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/onion.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Onion 1 KG</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/tomato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Tomato 500 g</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/onion.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Onion 1 KG</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/potato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Potato 1 KG</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+              <div class="flex gap-4 p-4 rounded-md bg-white shadow-2xl">
+                  <img src="./assets/potato.png" alt="">
+                  <div class="space-y-2">
+                      <span>4.5</span>
+                      <h2 class="font-bold text-2xl">Potato 1 KG</h2>
+                      <p>$39</p>
+                  </div>
+              </div> 
+          </div>
+        
+      </div>
+      <section>
+  </main>
+
+
+</body>
+
 </html>
